@@ -43,7 +43,7 @@ class View(ft.UserControl):
 
         self.btn_umidita = ft.ElevatedButton(text="Umidità media",
                                              tooltip="Verifica l'umidità media per città, nel mese selezionato",
-                                             on_click=self._controller.handle_umidita_media)
+                                             on_click=self._controller.handle_umidita_mediaCO)
 
         self.btn_calcola_sequenza = ft.ElevatedButton(text="Calcola sequenza",
                                              tooltip="Calcola la sequenza ottimale per le analisi",
